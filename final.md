@@ -22,6 +22,7 @@
 
 ### 📋 Variables in Python
 
+   Variables are generally user-defined names given to memory locations. 
 - Teacher's functionalities
    - Give attendance to all students as per entered date.
    - On the dashboard, see the number of lectures conducted (by the teacher) and all students in the division in a table with their
