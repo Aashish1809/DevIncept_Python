@@ -23,9 +23,9 @@
 
 ### 📋 Variables in Python
 
-<div style="text-align: right">
+<p align="justify">
    Variables are generally user-defined names given to memory locations. Therefore, variable names are just the identifiers of various memory locations. When a memory location has a user-defined name i.e., variable is declared, it means that particular location can accessed only using a variable name. The value at that particular location can also be accessed using the variable name, and any operation on the memory location has to take place only by referring to it via the variable name.
-   </div>
+</p>
 - Teacher's functionalities
    - Give attendance to all students as per entered date.
    - On the dashboard, see the number of lectures conducted (by the teacher) and all students in the division in a table with their
