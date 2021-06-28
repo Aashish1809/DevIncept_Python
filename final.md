@@ -23,14 +23,15 @@
 
 <b> Rules for naming variables in Python </b>
 <p align="justify">
-   All programming languages have certain rules that need to followed when programmer is working with variables. Python is no different. Almost all the programming languages have similar rules for naming variables but to be specific, the rules to be followed in Python are thereby,
+   All programming languages have certain rules that need to be followed when programmer is working with variables. Python is no different. Almost all the programming languages have similar rules for naming variables, but to be specific the rules to be followed in Python are thereby,
 </p>
 
    - The variable name can only have alpha-numeric characters and an underscore (A-Z, a-z, _).
    - The variable name can begin with a alphabet or an underscore i.e., they cannot begin with a numeric character.
-   - Just like in most of the programming languages, variables in Python are case-sensative.
-   - Keyword in Python cannot be used as a variable name.
+   - Just like in most of the programming languages, variables in Python are case-sensitive.
+   - Keywords in Python cannot be used as a variable names.
+
 <p align="justify">
-   Python doesn't require explicit datatype definition, but it doesn't limit it to only a particular datatype. When a variable in Python is defined assigning it to a numeric value, impicitly it means that the variable defined holds numeric data and therefore datatype assigned to this variable would be numeric. But the same variable can be used to hold strings as well, and if a string is assigned to the same variable, the variable now is of the string type. The programmer not only can change the value of the variable, which in turn could help change the type of the variable when are where needed, which most of the programming languages fail to provide.
+   Python doesn't require explicit datatype definition, but it doesn't limit it to only a particular datatype. When a variable in Python is defined, assigning it to a numeric value, impicitly it means that the variable defined holds numeric data and therefore datatype assigned to this variable would be numeric. But the same variable can be used to hold strings as well, and if a string is assigned to the same variable, the variable now is of the string type. The programmer always can change the value of the variable, which in turn could lead to change of type of the variable, which most of the programming languages fail to provide.
 </p>
 
