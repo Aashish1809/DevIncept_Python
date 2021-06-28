@@ -5,7 +5,7 @@
    <br />
    <b> VARIABLES AND DATATYPES IN PYTHON </b>
    <br />
-   <b> This mark down file helps understand Variables and Datatypes in Python. </b>
+   <b> This mark down file helps understand VARIABLES and DATATYPES in PYTHON. </b>
    <br />
 </p>
 
