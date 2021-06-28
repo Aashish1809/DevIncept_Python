@@ -132,5 +132,17 @@ These are only the basic primitive datatypes in Python. But it is not like Pytho
 <p align="justify">
 Lists are a very useful variable type in Python. A list can contain a series of values. List variables are declared by using brackets [ ] following the variable name. All lists in Python are zero-based indexed. When referencing a member or the length of a list the number of list elements is always the number shown plus one. Assigning data to a specific element of the list can be done using an index into the list. The list index starts at zero. Lists aren’t limited to a single dimension. Although most people can’t comprehend more than three or four dimensions lists having multiple dimensions can be declared by separating it with commas.
 </p>
+<b> List specific Functions</b>
+<p align="justify">
+Lists are a very useful variable type in Python. A list can contain a series of values. List variables are declared by using brackets [ ] following the variable name. All lists in Python are zero-based indexed. When referencing a member or the length of a list the number of list elements is always the number shown plus one. Assigning data to a specific element of the list can be done using an index into the list. The list index starts at zero. Lists aren’t limited to a single dimension. Although most people can’t comprehend more than three or four dimensions lists having multiple dimensions can be declared by separating it with commas.
+Python List append()
+The append() method adds an item to the end of the list.
+The syntax of the append() method is:
+list.append(item)
+append() Parameters
+The method takes a single argument
+item - an item to be added at the end of the list
+The item can be numbers, strings, dictionaries, another list, and so on.
+</p>
 
 
