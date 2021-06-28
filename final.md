@@ -76,13 +76,13 @@ b=c=20 //multiple variable assignment
    - String
 </p>
 <p align="justify">
-<b>Integer</b> value is represented by the int class. It contains positive or negative whole numbers (without fraction or decimal). In Python there is no limit to how long an integer value can be.
+<b>Integer</b> value is represented by the int class. It contains positive or negative whole numbers (without fraction or decimal). In Python, there is no limit to how long an integer value can be.
 </p>
 <p align="justify"> 
 <b>Float</b> value is represented by the float class. It is a real number with floating point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation. 
 </p>
 <p align="justify">
-<b>Complex Numbers</b> is represented by the complex class. It is specified as (real part) + (imaginary part)j. If for example, the complex number is 5+5j, real part is 5 and the imaginary part is 5 again.
+<b>Complex Number</b> is represented by the complex class. It is specified as (real part) + (imaginary part)j. If for example, the complex number is 5+5j, real part is 5 and the imaginary part is 5 again.
 </p>
 <p align="justify">
 Like many other popular programming languages, <b>strings</b> in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
@@ -114,13 +114,13 @@ HELLO
 >>> <class 'str'>
 ```
 <p align="justify">
-These are only the basic primitive datatypes in Python. But it is not like Python has only these Primitive datatypes. There are many more which include boolean, long.. etc. but they are out of scope of this markdown file.
+These are only the basic primitive datatypes in Python. But it is not like Python has only these primitive datatypes. There are many more which include boolean, long.. etc. but they are out of scope of this markdown file.
 </p>
 </br>
 <b> Non-Primitive Datatypes in Python </b>
 </br>
 <p align="justify">
-   Non-Primitive datatypes can be defined as the derived datatypes. These are the datatypes which are built upon primitive datatypes. In contrast to primitive datatypes, non-primitive data types not only store values, but a collection of values in different formats. Non-Primitive datatypes in Python can furthur be classified into four.
+   Non-Primitive datatypes can be defined as the derived datatypes. These are the datatypes which are built upon primitive datatypes. In contrast to primitive datatypes, non-primitive data types not only store values, but a collection of values in different formats. Non-Primitive datatypes in Python can further be classified into four.
    
    - List
    - Tuple
@@ -130,20 +130,20 @@ These are only the basic primitive datatypes in Python. But it is not like Pytho
 <b> List </b>
 </br>
 <p align="justify">
-Lists are a very useful variable type in Python. A list can contain a series of values. List variables are declared by using brackets [ ] following the variable name. All lists in Python are zero-based indexed. When referencing a member or the length of a list the number of list elements is always the number shown plus one. Assigning data to a specific element of the list can be done using an index into the list. The list index starts at zero. Lists aren’t limited to a single dimension. Although most people can’t comprehend more than three or four dimensions lists having multiple dimensions can be declared by separating it with commas.
+Lists are a very useful variable type in Python. A list can contain a series of values. List variables are declared by using brackets [ ] following the variable name. All lists in Python are zero-based indexed. When referencing a member or the length of a list, the number of list elements is always the number shown plus one. Assigning data to a specific element of the list can be done using an index of the list. The list index starts at zero. Lists aren’t limited to a single dimension. Although most people can’t comprehend more than three or four dimensions, lists having multiple dimensions can be declared by separating it with commas.
 </p>
 <b> List Functions</b>
 <p align="justify"> 
 <b> append() </b> method adds an item to the end of the list. The method takes a single argument which is added to the end of list. The argument can be a number, string, dictionary, another list, and so on.
 </p>
 <p align="justify">
-<b> index() </b> method returns the index of the specified element in the list. The list index() method can take a maximum of three arguments, element which is the element to be searched,  start(optional) which is the index from which the search starts and end(optional) which is the index at which the search should stop. The list index() method returns the index of the given element in the list. If the element is not found, a ValueError exception is raised. One important thing the note is that index() method only returns the first occurrence of the matching element.
+<b> index() </b> method returns the index of the specified element in the list. The list index() method can take a maximum of three arguments, element which is the element to be searched,  start(optional) which is the index from which the search starts and end(optional) which is the index at which the search should stop. The list index() method returns the index of the given element in the list. If the element is not found, a ValueError exception is raised. One important thing to note is that index() method only returns the first occurrence of the matching element.
 </p>
 <p align="justify">
 <b> insert() </b> method inserts an element to the list at the specified index. The insert() method takes two parameters, index which indicates the position at which new element has to be inserted and element which is the element to be inserted in the list. If index is 0, the element is inserted at the beginning of the list. If index is 3, the index of the inserted element will be 3 (4th element in the list). All the elements after index are shifted to the right.
 </p>
 <p align="justify">
-<b> count() </b> method returns the number of times the specified element appears in the list. The count() method takes a single argument, element, the elements whose number of occurances need to be counted. The count() method returns the number of times element appears in the list.
+<b> count() </b> method returns the number of times the specified element appears in the list. The count() method takes a single argument, element, the element's whose number of occurances need to be counted. The count() method returns the number of times element appears in the list.
 </p>
 <p align="justify">
 <b> remove() </b> method removes the first matching element (which is passed as an argument) from the list. The remove() method takes a single element as an argument and removes it from the list. If the element doesn't exist, it throws ValueError: list.remove(x): x not in list exception.
@@ -154,12 +154,12 @@ Lists are a very useful variable type in Python. A list can contain a series of 
 </br>
 <b> Tuple </b>
 <p align="justify">
-Tuples are a group of values like a list and are manipulated in similar ways. But, tuples are fixed in size once they are assigned. In Python the fixed size is considered immutable as compared to a list that is dynamic and mutable. Tuples are defined by parenthesis(). Advantages of using tuple over lists could include some of the following.
+Tuples are a group of values like a list and are manipulated in similar ways. But, tuples are fixed in size once they are assigned. In Python, the fixed size is considered immutable as compared to a list that is dynamic and mutable. Tuples are defined by parenthesis(). Advantages of using tuples over lists could include some of the following.
    
    - Tuples do not have append or extend method. They are fixed-size and therefore are fast.
    - Find method can be used to check if element exists in the tuple, find() works only because it is fixed size.
    - IN operator can also be used for the same purpose i.e., to check if an element exists or not.
-   - Constant set of values need to be be defined in a tuple instead of a list always because they are fast.
+   - Constant set of values need to be defined in a tuple instead of a list always because they are fast.
    - It makes the code safe as tuple offers “write-protect” data that does not change.
    
 
