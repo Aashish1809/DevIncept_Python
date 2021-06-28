@@ -12,11 +12,11 @@
 
 ### Topics to be covered
 
- :point_right: Variables
- 
- :point_right: Datatypes
- 
- :point_right: Type Conversions
+ :point_right: Variables in Python
+  
+ :point_right: Datatypes in Python
+  
+ :point_right: Type Conversions in Python
  
  ---
 
