@@ -127,7 +127,6 @@ These are only the basic primitive datatypes in Python. But it is not like Pytho
    - Set
    - Dictionary
 </p>
-</br>
 <b> List </b>
 </br>
 <p align="justify">
