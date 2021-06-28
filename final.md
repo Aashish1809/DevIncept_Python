@@ -20,6 +20,7 @@
  ---
 
 ### 📋 Variables in Python
+</br>
 
 <p align="justify">
    Variables in Python are identifiers just like in any other programming language. They can be treated off like a name given to a memory location. Once a variable is declared, the memory block could be located using only the variable name. Any operations on that particular memory location have to be performed using the variable name. Variables always need to go through two stages, one is declaration and other one is initialization. Variable declaration deals with assigning the user-defined identifier as a name to a memory location, and initialization is assigning a value to that particular memory location. In general, two stages are combined into a single statement but in most of the programming languages explicit definition of a datatype is necessary, which is not the case with Python.
