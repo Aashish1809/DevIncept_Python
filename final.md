@@ -11,14 +11,6 @@
 
 ---
 
-### Topics to be covered
-
- :point_right: Variables in Python
-  
- :point_right: Datatypes in Python
- 
- ---
-
 ### 📋 Variables in Python
 
 <p align="justify">
