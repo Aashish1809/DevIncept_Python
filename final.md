@@ -20,7 +20,6 @@
  ---
 
 ### 📋 Variables in Python
-</hr>
 
 <p align="justify">
    Variables in Python are identifiers just like in any other programming language. They can be treated off like a name given to a memory location. Once a variable is declared, the memory block could be located using only the variable name. Any operations on that particular memory location have to be performed using the variable name. Variables always need to go through two stages, one is declaration and other one is initialization. Variable declaration deals with assigning the user-defined identifier as a name to a memory location, and initialization is assigning a value to that particular memory location. In general, two stages are combined into a single statement but in most of the programming languages explicit definition of a datatype is necessary, which is not the case with Python.
@@ -39,36 +38,7 @@
    - The variable name can begin with a alphabet or an underscore i.e., they cannot begin with a numeric character.
    - Just like in most of the programming languages, variables in Python are case-sensative.
    - Keyword in Python cannot be used as a variable name.
-      
-## ***Technologies Used***
+<p align="justify">
+   Python doesn't require explicit datatype definition, but it doesn't limit it to only a particular datatype. When a variable in Python is defined assigning it to a numeric value, impicitly it means that the variable defined holds numeric data and therefore datatype assigned to this variable would be numeric. But the same varible can be used to hold strings as well, and if a string is assigned to the same variable, the variable now is of the string type. The programmer not only can change the value of the variable, but can also change the type of the variable when are where needed which most of the programming languages fail to provide.
+</p>
 
-- Back end
-   - Flask
-   - DB and auth
-      - Firebase
-         - Cloud Firestore
-         - e-mail-password authentication
-- Front end
-   - Templates from [Creative Tim](https://www.creative-tim.com/) Material Kit PRO - v2.2.0
-      - HTML
-      - CSS
-      - JS
-
-## ***Contributions***
-
-- All contributors are most welcome!
-- Do view the [`CONTRIBUTING.md`](CONTRIBUTING.md) file for further instructions, requirements/dependencies & local project setup instructions!
-- All the amazing contributors to this repo can be found in the [`CONTRIBUTORS.md`](CONTRIBUTORS.md) file!
-
-## ***Code of conduct***
-
-- Please view the [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) file for details.
-
-## ***Authors***
-
-- Harsh Kapadia
-   - [LinkedIn](https://www.linkedin.com/in/harsh-kapadia-426999175/)
-   - [Twitter](https://twitter.com/harshgkapadia)
-- Saikiran Jakkan
-   - [LinkedIn](https://www.linkedin.com/in/saikiran-jakkan-939b2a190/)
-   - [Twitter](https://twitter.com/saiki_93)
