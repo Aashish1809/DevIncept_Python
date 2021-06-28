@@ -251,6 +251,45 @@ A = {'18', '5', '88', '12'} #SetA
 Python dictionary is an unordered collection of items. Each item of a dictionary has a key/value pair. Dictionaries are optimized to retrieve values when the key is known. Creating a dictionary is as simple as placing items inside curly braces {} separated by commas. An item has a key and a corresponding value that is expressed as a pair (key: value). While the values can be of any data type and can repeat, keys must be of immutable type (string, number or tuple with immutable elements) and must be unique. Dictionary can also be created using the built-in dict() function.
 </p>
 <b> Dictionary Functions </b>
+<p align="justify">
+<b> items() </b> method returns a view object that displays a list of dictionary's (key, value) tuple pairs. The items() method is similar to dictionary's viewitems() method in Python 2.7. The items() method doesn't take any parameters. It returns a view object that displays a list of a given dictionary's (key, value) tuple pair.
+</p>
+<p align="justify">
+<b> get() </b> method returns the value for the specified key if key is in dictionary. get() method takes maximum of two parameters, the key which is the key to be searched in the dictionary and the value(optional), which is the value to be returned if the key is not found. The default value is None. It returns the value for the specified key if key is in dictionary, None if the key is not found and value is not specified and value if the key is not found and value is specified. The difference between direct access i.e., dictionary['key'] and get() is when the key is not found and we use the direct access method, an expection is raised. That can be avoided by specifying the 'value' attribute of the get() function.
+</p>
+<p align="justify">
+<b> keys() </b> method returns a view object that displays a list of all the keys in the dictionary. The keys() doesn't take any parameters. The keys() returns a view object that displays a list of all the keys. When the dictionary is changed, the view object also reflects these changes.
+</p>
+<p align="justify">
+<b> values() </b> method returns a view object that displays a list of all the values in the dictionary. The values() method doesn't take any parameters. It returns a view object that displays a list of all values in a given dictionary. If the dictionary is updated at any time, the changes are always reflected.
+</p>
+<p align="justify">
+<b> clear() </b> method removes all items from the dictionary. It doesn't take any parameters and returns None.
+</p>
+
+```
+Dict1 = { 'A': 1, 'B': 2, 'C': 3 }
+>>>print(Dict1.items()) #To print all key-value pairs
+dict_items([('A', 1), ('B', 2), ('C', 3)])
+>>>print(Dict1.get('A')) #To print value of key 'A'
+1
+>>>print(Dict1.get('D')) #To print value of key 'D' which is non-existent
+None
+>>>print(Dict1.get('D',0)) #To print value of key 'D' which is non-existent providing a default value
+0
+>>>print(Dict1.keys()) #To print all the keys
+dict_keys(['A', 'B', 'C'])
+>>>print(Dict1.values()) #To print all the values
+dict_values([1, 2, 3])
+>>>print(Dict1.clear()) #To clear the dictionary off
+None
+```
+
+<p align="justify">
+These datatypes have a lot of capabilities and that is the reason Python is so powerful. The capabilities are always acheived making use of functions. It therefore means these non-primitive datatypes have a lot of functions or attributes to be even more specific. Yes, it is true but it is not possible to covev the functionality of all the defined attributes and therefore this markdown file is limiting down the number of functions. Most important functions under each datatype have been explained very clearly.
+</p>
+
+   
 
 
 
