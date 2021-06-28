@@ -154,7 +154,7 @@ Lists are a very useful variable type in Python. A list can contain a series of 
 </br>
 <b> Tuple </b>
 <p align="justify">
-Tuples are a group of values like a list and are manipulated in similar ways. But, tuples are fixed in size once they are assigned. In Python the fixed size is considered immutable as compared to a list that is dynamic and mutable. Tuples are defined by parenthesis().
+Tuples are a group of values like a list and are manipulated in similar ways. But, tuples are fixed in size once they are assigned. In Python the fixed size is considered immutable as compared to a list that is dynamic and mutable. Tuples are defined by parenthesis(). Advantages of using tuple over lists could include some of the following.
    
    - Tuples do not have append or extend method. They are fixed-size and therefore are fast.
    - Find method can be used to check if element exists in the tuple, find() works only because it is fixed size.
