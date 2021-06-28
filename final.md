@@ -20,7 +20,7 @@
  
  ---
 
-## ***Functionalities***
+### Variables in Python
 
 - Teacher's functionalities
    - Give attendance to all students as per entered date.
