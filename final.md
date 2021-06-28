@@ -60,6 +60,7 @@ b=c=20 //multiple variable assignment
 <p align="center">
    <img src="http://hindiwalo.com/wp-content/uploads/2020/06/Untitled-Document-3-1024x656.png" alt="Datatypes in Python"
         width="700" height="500">
+</p>
 <b> Primitive Datatypes in Python </b>
 </br>
 <p align="justify">
