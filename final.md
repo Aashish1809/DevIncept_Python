@@ -47,10 +47,6 @@ b=c=20 //multiple variable assignment
 20
 >>> print(c)
 20
->>> type(a) //retrieving type of variable
-<class 'str'>
->>> type(b) //retrieving type of variable
-<class 'int'>
 ```
 
 ---
@@ -79,4 +75,43 @@ b=c=20 //multiple variable assignment
    - Complex
    - String
 </p>
+<p align="justify">
+   Integer value is represented by the int class. It contains positive or negative whole numbers (without fraction or decimal). In Python there is no limit to how long an integer value can be.
+</p>
+<p align="justify"> 
+Float value is represented by the float class. It is a real number with floating point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation. 
+</p>
+<p align="justify">
+Complex Numbers is represented by the complex class. It is specified as (real part) + (imaginary part)j. If for example, the complex number is 5+5j, real part is 5 and the imaginary part is 5 again.
+</p>
+<p align="justify">
+Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
+</p>
+
+```
+a=10 //assigning a integer value
+>>> print a
+10
+>>> print(type(a)) //print the type of a
+>>> <class 'int'> //int type
+
+a=10.3 //assigning a float value
+>>> print a
+10.3
+>>> print(type(a)) //print the type of a
+>>> <class 'float'>
+
+a=5+3j //assigning a complex value
+>>> print a
+5+3j
+>>> print(type(a)) //print the type of a
+>>> <class 'complex'>
+
+a="HELLO" //assigning a string value
+>>> print a
+HELLO
+>>> print(type(a)) //print the type of a
+>>> <class 'str'>
+```
+
 
