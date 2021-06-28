@@ -127,8 +127,7 @@ These are only the basic primitive datatypes in Python. But it is not like Pytho
    - Set
    - Dictionary
 </p>
-<b> List </b>
-</br>
+<b> Lists </b>
 <p align="justify">
 Lists are a very useful variable type in Python. A list can contain a series of values. List variables are declared by using brackets [ ] following the variable name. All lists in Python are zero-based indexed. When referencing a member or the length of a list, the number of list elements is always the number shown plus one. Assigning data to a specific element of the list can be done using an index of the list. The list index starts at zero. Lists aren’t limited to a single dimension. Although most people can’t comprehend more than three or four dimensions, lists having multiple dimensions can be declared by separating it with commas.
 </p>
@@ -173,7 +172,7 @@ List1.pop(0) #popping element at index 0 i.e., I position (if argument not passe
 [3]
 ```
 </br>
-<b> Tuple </b>
+<b> Tuples </b>
 <p align="justify">
 Tuples are a group of values like a list and are manipulated in similar ways. But, tuples are fixed in size once they are assigned. In Python, the fixed size is considered immutable as compared to a list that is dynamic and mutable. Tuples are defined by parenthesis(). Advantages of using tuples over lists could include some of the following.
    
@@ -195,6 +194,13 @@ Tuple1=('A','B','C','D')
 >>>print(Tuple1.count('C')) #checking the number of occurances of 'C' in the tuple using count()
 1
 ```
+</br>
+<b> Sets </b>
+<p align="justify">
+A set is an unordered collection of items. Every set element is unique, that is, no duplications are allowed and must be immutable, that is they cannot be changed once defined. However, a set in itself is mutable. Set offers appending, extending, and removing item capability. Sets can be used to perform mathematical set operations like union, intersection, symmetric difference, etc.
+</p>
+
+
 
 
 
