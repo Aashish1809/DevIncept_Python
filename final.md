@@ -2,13 +2,23 @@
    <img src="https://miro.medium.com/max/1200/1*PPIp7twJJUknfohZqtL8pQ.png" alt="Python Programming"
         width="500" height="150">
    <br />
-   <b> Concepts : Variables and Data Types in Python. </b>
+   <b> Concepts : Variables and Datatypes in Python. </b>
    <br />
-   <b> This mark down file helps understand Python Variables and Python Datatypes. </b>
+   <b> This mark down file helps understand Variables and Datatypes in Python. </b>
    <br />
 </p>
 
 ---
+
+# Topics to be covered
+
+ :point_right: Variables
+ 
+ :point_right: Datatypes
+ 
+ :point_right: Type Conversions
+ 
+ ---
 
 ## ***Functionalities***
 
