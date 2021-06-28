@@ -52,3 +52,12 @@ b=c=20 //multiple variable assignment
 >>> type(b) //retrieving type of variable
 <class 'int'>
 ```
+
+---
+
+### 📋 Datatypes in Python
+
+<p align="center">
+   <img src="http://hindiwalo.com/wp-content/uploads/2020/06/Untitled-Document-3-1024x656.png" alt="Datatypes in Python"
+        width="500" height="150">
+</p>
