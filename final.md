@@ -1,9 +1,9 @@
 <p align="center">
    <img src="https://www.vizteams.com/wp-content/uploads/2013/08/python-logo-master.png" alt="Python Programming">
    <br />
-   <h3> Concepts : Variables and Data Types in Python. </h3>
+   <b> Concepts : Variables and Data Types in Python. </b>
    <br />
-   <h5> This mark down file helps understand Python Variables and Python Datatypes. </h5>
+   <b> This mark down file helps understand Python Variables and Python Datatypes. </b>
    <br />
 </p>
 
