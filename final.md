@@ -178,11 +178,26 @@ List1.pop(0) //popping element at index 0 i.e., I position (if argument not pass
 Tuples are a group of values like a list and are manipulated in similar ways. But, tuples are fixed in size once they are assigned. In Python, the fixed size is considered immutable as compared to a list that is dynamic and mutable. Tuples are defined by parenthesis(). Advantages of using tuples over lists could include some of the following.
    
    - Tuples do not have append or extend method. They are fixed-size and therefore are fast.
-   - Find method can be used to check if element exists in the tuple, find() works only because it is fixed size.
    - IN operator can also be used for the same purpose i.e., to check if an element exists or not.
    - Constant set of values need to be defined in a tuple instead of a list always because they are fast.
    - It makes the code safe as tuple offers “write-protect” data that does not change.
-All the functions used for a list could be applied to a tuple as well, the only difference being tuple doesn't support append() and extend() because tuples are immutable therefore extending them or appending items to them is not possible. As it is of fixed size, it supports the find() function.
+</p>
+<p align="justify">
+All the functions used for a list retreival could be applied to a tuple as well, the only difference being tuple doesn't support append() and extend() because tuples are immutable and extending them or appending items to them is not possible. It doesn't allow insertion of elements as well, i.e., doesn't have a insert(). Removal of elements is also not possible, meaning remove() is not supported as well! When removal is not possible it is quite explanatory that even pop() is not supported.
+</p>
+
+```
+Tuple1=('A','B','C','D')
+>>>print(Tuple1) //printing the elements of the tuple
+('A', 'B', 'C', 'D')
+>>>print(Tuple1.index('B')) //finding the position of 'A' in the tuple using index()
+1
+>>>print(Tuple1.count('C')) //checking the number of occurances of 1 in the list using count()
+1
+```
+
+
+
    
 
 
