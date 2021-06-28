@@ -286,7 +286,7 @@ None
 ```
 
 <p align="justify">
-These datatypes have a lot of capabilities and that is the reason Python is so powerful. The capabilities are always acheived making use of functions. It therefore means these non-primitive datatypes have a lot of functions or attributes to be even more specific. Yes, it is true but it is not possible to covev the functionality of all the defined attributes and therefore this markdown file is limiting down the number of functions. Most important functions under each datatype have been explained very clearly.
+These datatypes have a lot of capabilities and that is the reason Python is so powerful. The capabilities are always acheived making use of functions. It therefore means these non-primitive datatypes have a lot of functions or attributes to be even more specific. Yes, it is true but it is not possible to cover the functionality of all the defined attributes and therefore this markdown file is limiting down the number of functions. Most important functions under each datatype have been explained very clearly.
 </p>
 
    
