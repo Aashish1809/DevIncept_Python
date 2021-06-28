@@ -74,7 +74,9 @@ b=c=20 //multiple variable assignment
 <p align="justify">
    Primitive datatypes can be defined as the most basic datatypes of any programming language. They alongside variables form the building blocks of the program. These are the datatypes upon which non-primitive datatypes are built. Primitive datatypes are mutable in nature, meaning the variable declared using these datatypes can have a change in its value. Primitive datatypes in Python can furthur be classified into four.
    
-   - 
-   - Non-Primitive Datatypes
+   - Integer
+   - Float
+   - Complex
+   - String
 </p>
 
