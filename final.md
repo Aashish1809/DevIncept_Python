@@ -76,16 +76,16 @@ b=c=20 //multiple variable assignment
    - String
 </p>
 <p align="justify">
-   Integer value is represented by the int class. It contains positive or negative whole numbers (without fraction or decimal). In Python there is no limit to how long an integer value can be.
+<b>Integer</b> value is represented by the int class. It contains positive or negative whole numbers (without fraction or decimal). In Python there is no limit to how long an integer value can be.
 </p>
 <p align="justify"> 
-Float value is represented by the float class. It is a real number with floating point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation. 
+<b>Float</b> value is represented by the float class. It is a real number with floating point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation. 
 </p>
 <p align="justify">
-Complex Numbers is represented by the complex class. It is specified as (real part) + (imaginary part)j. If for example, the complex number is 5+5j, real part is 5 and the imaginary part is 5 again.
+<b>Complex Numbers</b> is represented by the complex class. It is specified as (real part) + (imaginary part)j. If for example, the complex number is 5+5j, real part is 5 and the imaginary part is 5 again.
 </p>
 <p align="justify">
-Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
+Like many other popular programming languages, <b>strings</b> in Python are arrays of bytes representing unicode characters.However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
 </p>
 
 ```
@@ -134,14 +134,7 @@ Lists are a very useful variable type in Python. A list can contain a series of 
 </p>
 <b> List Functions</b>
 <p align="justify"> 
-<b> append() </b>
-The append() method adds an item to the end of the list.
-The syntax of the append() method is:
-list.append(item)
-append() Parameters
-The method takes a single argument
-item - an item to be added at the end of the list
-The item can be numbers, strings, dictionaries, another list, and so on.
+<b> append() </b> method adds an item to the end of the list. The method takes a single argument which is added to the end of list. The argument can be a number, string, dictionary, another list, and so on.
 </p>
 
 
