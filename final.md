@@ -131,7 +131,7 @@ These are only the basic primitive datatypes in Python. But it is not like Pytho
 <p align="justify">
 Lists are a very useful variable type in Python. A list can contain a series of values. List variables are declared by using brackets [ ] following the variable name. All lists in Python are zero-based indexed. When referencing a member or the length of a list, the number of list elements is always the number shown plus one. Assigning data to a specific element of the list can be done using an index of the list. The list index starts at zero. Lists aren’t limited to a single dimension. Although most people can’t comprehend more than three or four dimensions, lists having multiple dimensions can be declared by separating it with commas.
 </p>
-<b> List Functions</b>
+<b> List Functions </b>
 <p align="justify"> 
 <b> append() </b> method adds an item to the end of the list. The method takes a single argument which is added to the end of list. The argument can be a number, string, dictionary, another list, and so on.
 </p>
@@ -199,6 +199,15 @@ Tuple1=('A','B','C','D')
 <p align="justify">
 A set is an unordered collection of items. Every set element is unique, that is, no duplications are allowed and must be immutable, that is they cannot be changed once defined. However, a set in itself is mutable. Set offers appending, extending, and removing item capability. Sets can be used to perform mathematical set operations like union, intersection, symmetric difference, etc. A set is created by placing all the items (elements) inside curly braces {}, separated by comma. It can have any number of items and they may be of different types (integer, float, tuple, string). But a set cannot have mutable elements like lists, sets or dictionaries as its elements.
 </p>
+<b> Set Functions </b>
+<p align="justify">
+Just like the other two, sets also support appending, inserting, and removal of elements. Some functions specific to sets which could provide high mathematical capabilities are as follows:
+</p>
+<p align="justify">
+<b> difference() </b> method returns the set difference of two sets. If A and B are two sets, the set difference of A and B is a set of elements that exists only in set A but not in B. The difference() method returns the difference between two sets which is also a set but doesn't modify original sets. Set difference could also be found using the '-' operator.
+</p>
+
+
 
 
 
