@@ -197,7 +197,7 @@ Tuple1=('A','B','C','D')
 </br>
 <b> Sets </b>
 <p align="justify">
-A set is an unordered collection of items. Every set element is unique, that is, no duplications are allowed and must be immutable, that is they cannot be changed once defined. However, a set in itself is mutable. Set offers appending, extending, and removing item capability. Sets can be used to perform mathematical set operations like union, intersection, symmetric difference, etc.
+A set is an unordered collection of items. Every set element is unique, that is, no duplications are allowed and must be immutable, that is they cannot be changed once defined. However, a set in itself is mutable. Set offers appending, extending, and removing item capability. Sets can be used to perform mathematical set operations like union, intersection, symmetric difference, etc. A set is created by placing all the items (elements) inside curly braces {}, separated by comma. It can have any number of items and they may be of different types (integer, float, tuple, string). But a set cannot have mutable elements like lists, sets or dictionaries as its elements.
 </p>
 
 
