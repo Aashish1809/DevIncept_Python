@@ -3,7 +3,7 @@
    <img src="https://miro.medium.com/max/1200/1*PPIp7twJJUknfohZqtL8pQ.png" alt="Python Programming"
         width="500" height="150">
    <br />
-   <b> Concepts : Variables and Datatypes in Python. </b>
+   <b> CONCEPTS : VARIABLES AND DATATYPES IN PYTHON </b>
    <br />
    <b> This mark down file helps understand Variables and Datatypes in Python. </b>
    <br />
