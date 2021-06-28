@@ -31,6 +31,6 @@
    - Just like in most of the programming languages, variables in Python are case-sensative.
    - Keyword in Python cannot be used as a variable name.
 <p align="justify">
-   Python doesn't require explicit datatype definition, but it doesn't limit it to only a particular datatype. When a variable in Python is defined assigning it to a numeric value, impicitly it means that the variable defined holds numeric data and therefore datatype assigned to this variable would be numeric. But the same varible can be used to hold strings as well, and if a string is assigned to the same variable, the variable now is of the string type. The programmer not only can change the value of the variable, but can also change the type of the variable when are where needed which most of the programming languages fail to provide.
+   Python doesn't require explicit datatype definition, but it doesn't limit it to only a particular datatype. When a variable in Python is defined assigning it to a numeric value, impicitly it means that the variable defined holds numeric data and therefore datatype assigned to this variable would be numeric. But the same variable can be used to hold strings as well, and if a string is assigned to the same variable, the variable now is of the string type. The programmer not only can change the value of the variable, but can also change the type of the variable when are where needed which most of the programming languages fail to provide.
 </p>
 
