@@ -1,5 +1,6 @@
 <p align="center">
-   <img src="https://www.vizteams.com/wp-content/uploads/2013/08/python-logo-master.png" alt="Python Programming">
+   <img src="https://www.esparkinfo.com/wp-content/uploads/2020/10/Analyzing-The-Reasons-Why-Python-Programming-Language.jpg" alt="Python Programming"
+        width="600" height="300">
    <br />
    <b> Concepts : Variables and Data Types in Python. </b>
    <br />
