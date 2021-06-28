@@ -16,8 +16,6 @@
  :point_right: Variables in Python
   
  :point_right: Datatypes in Python
-  
- :point_right: Type Conversions in Python
  
  ---
 
@@ -36,10 +34,10 @@
    All programming languages have certain rules that need to followed when programmer is working with variables. Python is no different. Almost all the programming languages have similar rules for naming variables but to be specific, the rules to be followed in Python are thereby,
 </p>
 
-   - The variable names can only have alpha-numeric characters and an underscore (A-Z, a-z, _).
-   - The variable names can begin with a alphabet or an underscore i.e., they cannot begin with a numeric character.
+   - The variable name can only have alpha-numeric characters and an underscore (A-Z, a-z, _).
+   - The variable name can begin with a alphabet or an underscore i.e., they cannot begin with a numeric character.
    - Just like in most of the programming languages, variables in Python are case-sensative.
-   - Keywords in Python cannot be used as variable names.
+   - Keyword in Python cannot be used as a variable name.
       
 ## ***Technologies Used***
 
