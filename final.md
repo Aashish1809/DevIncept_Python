@@ -47,10 +47,8 @@ b=c=20 //multiple variable assignment
 20
 >>> print(c)
 20
->>> a=10
->>> b="hello"
 >>> type(a) //retrieving type of variable
-<class 'int'>
->>> type(b) //retrieving type of variable
 <class 'str'>
+>>> type(b) //retrieving type of variable
+<class 'int'>
 ```
