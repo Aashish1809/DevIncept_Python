@@ -36,13 +36,13 @@
 </p>
 
 ```
-a=10 //assigning a numeric value
+a=10 #assigning a numeric value
 >>> print a
 10
->>> a= “Hello” //reassigning a string value
+>>> a= “Hello” #reassigning a string value
 >>> print a
 Hello
-b=c=20 //multiple variable assignment
+b=c=20 #multiple variable assignment
 >>> print(b)
 20
 >>> print(c)
@@ -89,28 +89,28 @@ Like many other popular programming languages, <b>strings</b> in Python are arra
 </p>
 
 ```
-a=10 //assigning a integer value
+a=10 #assigning a integer value
 >>> print a
 10
->>> print(type(a)) //print the type of a
->>> <class 'int'> //int type
+>>> print(type(a)) #print the type of a
+>>> <class 'int'> #int type
 
-a=10.3 //assigning a float value
+a=10.3 #assigning a float value
 >>> print a
 10.3
->>> print(type(a)) //print the type of a
+>>> print(type(a)) #print the type of a
 >>> <class 'float'>
 
-a=5+3j //assigning a complex value
+a=5+3j #assigning a complex value
 >>> print a
 5+3j
->>> print(type(a)) //print the type of a
+>>> print(type(a)) #print the type of a
 >>> <class 'complex'>
 
-a="HELLO" //assigning a string value
+a="HELLO" #assigning a string value
 >>> print a
 HELLO
->>> print(type(a)) //print the type of a
+>>> print(type(a)) #print the type of a
 >>> <class 'str'>
 ```
 <p align="justify">
@@ -154,21 +154,21 @@ Lists are a very useful variable type in Python. A list can contain a series of 
 
 ```
 List1=[]
-List1.append(1) //appending an element into the list
+List1.append(1) #appending an element into the list
 >>>print(List1)
 [1]
->>>print(List1.index(1)) //finding the position of 1 in the list using index()
+>>>print(List1.index(1)) #finding the position of 1 in the list using index()
 0
-List1.insert(2, 1) //inserting an element at index 1 i.e., II position
-List1.insert(3, 2) //inserting an element at index 2 i.e., III position
+List1.insert(2, 1) #inserting an element at index 1 i.e., II position
+List1.insert(3, 2) #inserting an element at index 2 i.e., III position
 >>>print(List1)
 [1, 2, 3]
->>>print(List1.count(1)) //checking the number of occurances of 1 in the list using count()
+>>>print(List1.count(1)) #checking the number of occurances of 1 in the list using count()
 1
-List1.remove(2) //removing an element from the list
+List1.remove(2) #removing an element from the list
 >>>print(List1)
 [1, 3]
-List1.pop(0) //popping element at index 0 i.e., I position (if argument not passed, last item is popped)
+List1.pop(0) #popping element at index 0 i.e., I position (if argument not passed, last item is popped)
 >>>print(List1)
 [3]
 ```
@@ -188,11 +188,11 @@ All the functions used for a list retreival could be applied to a tuple as well,
 
 ```
 Tuple1=('A','B','C','D')
->>>print(Tuple1) //printing the elements of the tuple
+>>>print(Tuple1) #printing the elements of the tuple
 ('A', 'B', 'C', 'D')
->>>print(Tuple1.index('B')) //finding the position of 'A' in the tuple using index()
+>>>print(Tuple1.index('B')) #finding the position of 'A' in the tuple using index()
 1
->>>print(Tuple1.count('C')) //checking the number of occurances of 1 in the list using count()
+>>>print(Tuple1.count('C')) #checking the number of occurances of 'C' in the tuple using count()
 1
 ```
 
