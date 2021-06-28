@@ -57,7 +57,7 @@ b=c=20 //multiple variable assignment
    The data type of a variable or object determines which operations can be applied to it. Once a variable is assigned a data type, it can be used for computations in the program. The best thing about Python is that the data type doesn’t need to be defined when declaring a variable. Data types exist, but the variables are not bound to any of them. Languages that act in this way are called "dynamically-typed" languages. The datatypes in Python can be categorized into two,
    
    - Primitive Datatypes
-   - Non-Primitive Datatypes
+   - Non-Primitive Datatypes (Python specific datatypes)
    
 </p>
 
@@ -117,4 +117,15 @@ HELLO
 These are only the basic primitive datatypes in Python. But it is not like Python has only these Primitive datatypes. There are many more which include boolean, long.. etc. but they are out of scope of this markdown file.
 </p>
 
+<b> Non-Primitive Datatypes in Python </b>
+</br>
+<p align="justify">
+   Non-Primitive datatypes can be defined as the derived datatypes. These are the datatypes which are built upon primitive datatypes. In contrast to primitive datatypes, non-primitive data types not only store values, but a collection of values in different formats. Non-Primitive datatypes in Python can furthur be classified into four.
+   
+   - List
+   - Tuple
+   - Set
+   - Dictionary
+   
+</p>
 
