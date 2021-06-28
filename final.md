@@ -113,5 +113,8 @@ HELLO
 >>> print(type(a)) //print the type of a
 >>> <class 'str'>
 ```
+<p align="justify">
+These are only the basic primitive datatypes in Python. But it is not like Python has only these Primitive datatypes. There are many more which include boolean, long.. etc. but they are out of scope of this markdown file.
+</p>
 
 
