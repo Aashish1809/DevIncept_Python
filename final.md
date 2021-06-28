@@ -31,8 +31,17 @@
 </p>
 </ br>
 ### Rules for naming variables in Python
-
-
+<p align="justify">
+   All programming languages have certain rules that need to followed when programmer is working with variables. Python is no different. Almost all the programming languages have similar rules for naming variables but to be specific, the rules to be followed in Python are thereby,
+   - Teacher's functionalities
+   - Give attendance to all students as per entered date.
+   - On the dashboard, see the number of lectures conducted (by the teacher) and all students in the division in a table with their
+      - Roll number
+      - Name
+      - Attendance percentage
+      - Number of lectures attended by the student
+      - Dates on which the student attended and didn't attend the lectures
+</p>
 
 - Teacher's functionalities
    - Give attendance to all students as per entered date.
