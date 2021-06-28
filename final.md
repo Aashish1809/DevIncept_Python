@@ -22,7 +22,7 @@
 
 ### 📋 Variables in Python
 
-   Variables are generally user-defined names given to memory locations. 
+   Variables are generally user-defined names given to memory locations. Therefore, variable names are just the names of various memory locations on the memory of a computer. 
 - Teacher's functionalities
    - Give attendance to all students as per entered date.
    - On the dashboard, see the number of lectures conducted (by the teacher) and all students in the division in a table with their
