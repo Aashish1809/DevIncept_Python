@@ -61,6 +61,7 @@ b=c=20 //multiple variable assignment
    <img src="http://hindiwalo.com/wp-content/uploads/2020/06/Untitled-Document-3-1024x656.png" alt="Datatypes in Python"
         width="700" height="500">
 <b> Primitive Datatypes in Python </b>
+</br>
 <p align="justify">
    All programming languages have certain rules that need to be followed when programmer is working with variables. Python is no different. Almost all the programming languages have similar rules for naming variables, but to be specific the rules to be followed in Python are thereby,
 </p>
