@@ -32,35 +32,14 @@
 </ br>
 
 <b> Rules for naming variables in Python </b>
-
 <p align="justify">
    All programming languages have certain rules that need to followed when programmer is working with variables. Python is no different. Almost all the programming languages have similar rules for naming variables but to be specific, the rules to be followed in Python are thereby,
 </p>
 
-   - Teacher's functionalities
-   - Give attendance to all students as per entered date.
-   - On the dashboard, see the number of lectures conducted (by the teacher) and all students in the division in a table with their
-      - Roll number
-      - Name
-      - Attendance percentage
-      - Number of lectures attended by the student
-      - Dates on which the student attended and didn't attend the lectures
-
-- Teacher's functionalities
-   - Give attendance to all students as per entered date.
-   - On the dashboard, see the number of lectures conducted (by the teacher) and all students in the division in a table with their
-      - Roll number
-      - Name
-      - Attendance percentage
-      - Number of lectures attended by the student
-      - Dates on which the student attended and didn't attend the lectures
-- Student's functionalities
-   - View attendance for all the teachers in the division in a table with the
-      - Teacher's subject
-      - Teacher's name
-      - Number of lectures attended by the student
-      - Number of lectures conducted by the teacher
-      - Attendance percentage
+   - The variable names can only have alpha-numeric characters and an underscore (A-Z, a-z, _).
+   - The variable names can begin with a alphabet or an underscore i.e., they cannot begin with a numeric character.
+   - Just like in most of the programming languages, variables in Python are case-sensative.
+   - Keywords in Python cannot be used as variable names.
       
 ## ***Technologies Used***
 
