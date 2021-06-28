@@ -85,7 +85,7 @@ b=c=20 //multiple variable assignment
 <b>Complex Numbers</b> is represented by the complex class. It is specified as (real part) + (imaginary part)j. If for example, the complex number is 5+5j, real part is 5 and the imaginary part is 5 again.
 </p>
 <p align="justify">
-Like many other popular programming languages, <b>strings</b> in Python are arrays of bytes representing unicode characters.However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
+Like many other popular programming languages, <b>strings</b> in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
 </p>
 
 ```
