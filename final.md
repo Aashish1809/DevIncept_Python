@@ -1,6 +1,6 @@
 <p align="center">
    <img src="https://miro.medium.com/max/1200/1*PPIp7twJJUknfohZqtL8pQ.png" alt="Python Programming"
-        width="600" height="300">
+        width="500" height="150">
    <br />
    <b> Concepts : Variables and Data Types in Python. </b>
    <br />
