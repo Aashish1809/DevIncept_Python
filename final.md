@@ -151,6 +151,27 @@ Lists are a very useful variable type in Python. A list can contain a series of 
 <p align="justify">
 <b> pop() </b> method removes the item at the given index from the list and returns the removed item. The pop() method takes a single argument (index). The argument passed to the method is optional. If not passed, the default index -1 is passed as an argument (index of the last item). If the index passed to the method is not in range, it throws IndexError: pop index out of range exception. The pop() method returns the item present at the given index. This item is also removed from the list.
 </p>
+
+```
+List1=[]
+List1.append(1) //appending an element into the list
+>>>print(List1)
+[1]
+>>>print(List1.index(1)) //finding the position of 1 in the list using index()
+0
+List1.insert(2, 1) //inserting an element at index 1 i.e., II position
+List1.insert(3, 2) //inserting an element at index 2 i.e., III position
+>>>print(List1)
+[1, 2, 3]
+>>>print(List1.count(1)) //checking the number of occurances of 1 in the list using count()
+1
+List1.remove(2) //removing an element from the list
+>>>print(List1)
+[1, 3]
+List1.pop(0) //popping element at index 0 i.e., I position (if argument not passed, last item is popped)
+>>>print(List1)
+[3]
+```
 </br>
 <b> Tuple </b>
 <p align="justify">
