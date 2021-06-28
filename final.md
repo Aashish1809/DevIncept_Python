@@ -3,7 +3,7 @@
    <img src="https://miro.medium.com/max/1200/1*PPIp7twJJUknfohZqtL8pQ.png" alt="Python Programming"
         width="500" height="150">
    <br />
-   <b> CONCEPTS : VARIABLES AND DATATYPES IN PYTHON </b>
+   <b> VARIABLES AND DATATYPES IN PYTHON </b>
    <br />
    <b> This mark down file helps understand Variables and Datatypes in Python. </b>
    <br />
@@ -32,6 +32,6 @@
    - Keywords in Python cannot be used as a variable names.
 
 <p align="justify">
-   Python doesn't require explicit datatype definition, but it doesn't limit it to only a particular datatype. When a variable in Python is defined, assigning it to a numeric value, impicitly it means that the variable defined holds numeric data and therefore datatype assigned to this variable would be numeric. But the same variable can be used to hold strings as well, and if a string is assigned to the same variable, the variable now is of the string type. The programmer always can change the value of the variable, which in turn could lead to change of type of the variable, which most of the programming languages fail to provide.
+   Python doesn't require explicit datatype definition, but it doesn't limit it to only a particular datatype. When a variable in Python is defined, assigning it to a numeric value, impicitly it means that the variable defined holds numeric data and therefore datatype assigned to this variable would be numeric. But the same variable can be used to hold strings as well, and if a string is assigned to the same variable, the variable now is of the string type. The programmer always can change the value of the variable, which in turn could lead to change in type of the variable, which most of the programming languages fail to provide.
 </p>
 
