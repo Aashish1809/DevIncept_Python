@@ -59,8 +59,10 @@ b=c=20 //multiple variable assignment
 
 <p align="justify">
    The data type of a variable or object determines which operations can be applied to it. Once a variable is assigned a data type, it can be used for computations in the program. The best thing about Python is that the data type doesn’t need to be defined when declaring a variable. Data types exist, but the variables are not bound to any of them. Languages that act in this way are called "dynamically-typed" languages. The datatypes in Python can be categorized into two,
+   
    - Primitive Datatypes
    - Non-Primitive Datatypes
+   
 </p>
 
 <p align="center">
