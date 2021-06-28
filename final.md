@@ -182,6 +182,7 @@ Tuples are a group of values like a list and are manipulated in similar ways. Bu
    - IN operator can also be used for the same purpose i.e., to check if an element exists or not.
    - Constant set of values need to be defined in a tuple instead of a list always because they are fast.
    - It makes the code safe as tuple offers “write-protect” data that does not change.
+All the functions used for a list could be applied to a tuple as well, the only difference being tuple doesn't support append() and extend() because tuples are immutable therefore extending them or appending items to them is not possible. As it is of fixed size, it supports the find() function.
    
 
 
