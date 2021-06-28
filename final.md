@@ -142,6 +142,15 @@ Lists are a very useful variable type in Python. A list can contain a series of 
 <p align="justify">
 <b> insert() </b> method inserts an element to the list at the specified index. The insert() method takes two parameters, index which indicates the position at which new element has to be inserted and element which is the element to be inserted in the list. If index is 0, the element is inserted at the beginning of the list. If index is 3, the index of the inserted element will be 3 (4th element in the list). All the elements after index are shifted to the right.
 </p>
+<p align="justify">
+<b> count() </b> method returns the number of times the specified element appears in the list. The count() method takes a single argument, element, the elements whose number of occurances need to be counted. The count() method returns the number of times element appears in the list.
+</p>
+<p align="justify">
+<b> remove() </b> method removes the first matching element (which is passed as an argument) from the list. The remove() method takes a single element as an argument and removes it from the list. If the element doesn't exist, it throws ValueError: list.remove(x): x not in list exception.
+</p>
+<p align="justify">
+<b> pop() </b> method removes the item at the given index from the list and returns the removed item. The pop() method takes a single argument (index). The argument passed to the method is optional. If not passed, the default index -1 is passed as an argument (index of the last item). If the index passed to the method is not in range, it throws IndexError: pop index out of range exception. The pop() method returns the item present at the given index. This item is also removed from the list.
+</p>
 
 
 
