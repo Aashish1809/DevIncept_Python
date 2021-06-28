@@ -206,6 +206,59 @@ Just like the other two, sets also support appending, inserting, and removal of 
 <p align="justify">
 <b> difference() </b> method returns the set difference of two sets. If A and B are two sets, the set difference of A and B is a set of elements that exists only in set A but not in B. The difference() method returns the difference between two sets which is also a set but doesn't modify original sets. Set difference could also be found using the '-' operator.
 </p>
+<p align="justify">
+<b> difference_update() </b> updates the set calling the difference_update() method with the difference of sets. If A and B are two sets, the set difference of A and B is a set of elements that exists only in set A but not in B. But the difference is now updated to set A unlike the difference() function. When the code is executed, result will be equal to None, A will be equal to A-B and B will be unchanged.
+</p>
+<p align="justify">
+<b> intersection() </b> method returns a new set with elements that are common to all sets because the intersection of two or more sets is the set of elements that are common to all the sets. The intersection() method returns the intersection of set A with all the sets (passed as arguments). If the argument is not passed to intersection(), it returns a shallow copy of the set (A). Set difference could also be found using the '&' operator.
+</p> 
+<p align="justify">
+<b> intersection_update() </b> updates the set calling intersection_update() method with the intersection of sets. Again, the intersection of two or more sets is the set of elements which are common to all sets. So, if A, B, C are three sets, the set intersection of A, B, C is a set of common elements that exists in set A, in set B and also in set C. When the code is executed, result will be None, A will be equal to the intersection of A, B, and C, the sets B and C remain unchanged.
+</p>
+<p align="justify">
+<b> union() </b> method returns a new set with distinct elements from all the sets. The union of two or more sets is the set of all distinct elements present in all the sets. The union() method returns a new set with elements from the set and all other sets (passed as an argument). If the argument is not passed to union(), it returns a shallow copy of the set. Set difference could also be found using the '|' operator.
+</p>
+
+```
+A = {'18', '5', '88', '12'} #SetA
+B = {'18', '9', '0'} #SetB
+>>>print(A.difference(B)) #A-B
+{'88', '5', '12'}
+>>>print(B-A) #B-A using '-' operator
+{'0', '9'}
+>>>print(A.difference_update(B)) #A-B and A updated to A-B
+None
+>>>print(A)
+{'5', '12', '88'}
+A = {'18', '5', '88', '12'} #SetA
+>>>print(A.intersection(B)) #A&B
+{'18'}
+>>>print(B&A) #B&A using '&' operator
+{'18'}
+>>>print(A.intersection_update(B)) #A&B and A updated to A&B
+None
+>>>print(A)
+{'18'}
+A = {'18', '5', '88', '12'} #SetA
+>>>print(A.union(B)) #A|B
+{'9', '12', '18', '5', '0', '88'}
+>>>print(B|A) #B|A using '|' operator
+{'18', '5', '88', '0', '12', '9'}
+```
+</br>
+<b> Dictionaries </b>
+<p align="justify">
+Python dictionary is an unordered collection of items. Each item of a dictionary has a key/value pair. Dictionaries are optimized to retrieve values when the key is known. Creating a dictionary is as simple as placing items inside curly braces {} separated by commas. An item has a key and a corresponding value that is expressed as a pair (key: value). While the values can be of any data type and can repeat, keys must be of immutable type (string, number or tuple with immutable elements) and must be unique. Dictionary can also be created using the built-in dict() function.
+</p>
+<b> Dictionary Functions </b>
+
+
+
+
+
+
+
+
 
 
 
