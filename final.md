@@ -30,9 +30,10 @@
    Python is not a "statically-typed" language, therefore variable declaration doesn't even exist. A variable is created only when a value is assigned to it. As the variable is being provided with the value it is going to hold beforehand, defining the datatypes is not needed. Just like in any other programming language, if the variable name is used and an operation is performed, the operations' result reflects the value held in the memory location.
 </p>
 </ br>
-### Rules for naming variables in Python
+<b> Rules for naming variables in Python </b>
 <p align="justify">
    All programming languages have certain rules that need to followed when programmer is working with variables. Python is no different. Almost all the programming languages have similar rules for naming variables but to be specific, the rules to be followed in Python are thereby,
+</p>
    - Teacher's functionalities
    - Give attendance to all students as per entered date.
    - On the dashboard, see the number of lectures conducted (by the teacher) and all students in the division in a table with their
@@ -41,7 +42,6 @@
       - Attendance percentage
       - Number of lectures attended by the student
       - Dates on which the student attended and didn't attend the lectures
-</p>
 
 - Teacher's functionalities
    - Give attendance to all students as per entered date.
