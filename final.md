@@ -31,10 +31,7 @@
 </p>
 </ br>
 ### Rules for naming variables in Python
-<p align="justify">
-   There are certain rules that need to followed when naming variables. It is almost similar for all the conventional programming languages. The rulues for naming variables in Python are thereby,
-   
-</p>
+
 
 
 - Teacher's functionalities
