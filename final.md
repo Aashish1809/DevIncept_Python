@@ -136,5 +136,10 @@ Lists are a very useful variable type in Python. A list can contain a series of 
 <p align="justify"> 
 <b> append() </b> method adds an item to the end of the list. The method takes a single argument which is added to the end of list. The argument can be a number, string, dictionary, another list, and so on.
 </p>
+<p align="justify">
+<b> index() </b> method returns the index of the specified element in the list. The list index() method can take a maximum of three arguments, element which is the element to be searched,  start(optional) which is the index from which the search starts and end(optional) which is the index at which the search should stop. The list index() method returns the index of the given element in the list. If the element is not found, a ValueError exception is raised. One important thing the note is that index() method only returns the first occurrence of the matching element.
+</p>
+
+
 
 
