@@ -182,7 +182,7 @@ Tuples are a group of values like a list and are manipulated in similar ways. Bu
    - It makes the code safe as tuple offers “write-protect” data that does not change.
 </p>
 <p align="justify">
-All the functions used for a list retreival could be applied to a tuple as well, the only difference being tuple doesn't support append() and extend() because tuples are immutable and extending them or appending items to them is not possible. It doesn't allow insertion of elements as well, i.e., doesn't have a insert(). Removal of elements is also not possible, meaning remove() is not supported as well! When removal is not possible it is quite explanatory that even pop() is not supported.
+All the functions used for a list retreival could be applied to a tuple as well, the only difference being tuple doesn't support append() and extend() because tuples are immutable and extending them or appending items to them is not possible. It doesn't allow insertion of elements as well, i.e., doesn't have an insert(). Removal of elements is also not possible, meaning remove() is not supported as well! When removal is not possible, it is quite explanatory that even pop() is not supported.
 </p>
 
 ```
@@ -191,7 +191,7 @@ Tuple1=('A','B','C','D')
 ('A', 'B', 'C', 'D')
 >>>print(Tuple1.index('B')) #finding the position of 'A' in the tuple using index()
 1
->>>print(Tuple1.count('C')) #checking the number of occurances of 'C' in the tuple using count()
+>>>print(Tuple1.count('C')) #checking the number of occurences of 'C' in the tuple using count()
 1
 ```
 </br>
@@ -216,7 +216,7 @@ Just like the other two, sets also support appending, inserting, and removal of 
 <b> intersection_update() </b> updates the set calling intersection_update() method with the intersection of sets. Again, the intersection of two or more sets is the set of elements which are common to all sets. So, if A, B, C are three sets, the set intersection of A, B, C is a set of common elements that exists in set A, in set B and also in set C. When the code is executed, result will be None, A will be equal to the intersection of A, B, and C, the sets B and C remain unchanged.
 </p>
 <p align="justify">
-<b> union() </b> method returns a new set with distinct elements from all the sets. The union of two or more sets is the set of all distinct elements present in all the sets. The union() method returns a new set with elements from the set and all other sets (passed as an argument). If the argument is not passed to union(), it returns a shallow copy of the set. Set difference could also be found using the '|' operator.
+<b> union() </b> method returns a new set with distinct elements from all the sets. The union of two or more sets is the set of all distinct elements present in all the sets. The union() method returns a new set with elements from the set and all other sets (passed as an argument). If the argument is not passed to union(), it returns a shallow copy of the set. Set union could also be found using the '|' operator.
 </p>
 
 ```
