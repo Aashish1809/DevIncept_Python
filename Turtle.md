@@ -27,6 +27,111 @@ In the computer world, a library works similarly. By definition, a library is a 
 ```
 >>> import turtle
 ```
+</br>
+
+<b>Turtle Methods</b>
+<table class="table table-bordered">
+<tr>
+<th style="text-align:center;">METHOD</th>
+<th style="text-align:center;">PARAMETER</th>
+<th style="text-align:center;">DESCRIPTION</th>
+</tr>
+<tr>
+<td>Turtle()</td>
+<td>None</td>
+<td>It creates and returns a new turtle object</td>
+</tr>
+<tr>
+<td>forward()</td>
+<td>amount</td>
+<td>It moves the turtle forward by the specified amount</td>
+</tr>
+<tr>
+<td>backward()</td>
+<td>amount</td>
+<td>It moves the turtle backward by the specified amount</td>
+</tr>
+<tr>
+<td>right()</td>
+<td>angle</td>
+<td>It turns the turtle clockwise</td>
+</tr>
+<tr>
+<td>left()</td>
+<td>angle</td>
+<td>It turns the turtle counter clockwise</td>
+</tr>
+<tr>
+<td>penup()</td>
+<td>None</td>
+<td>It picks up the turtle’s Pen</td>
+</tr>
+<tr>
+<td>pendown()</td>
+<td>None</td>
+<td>Puts down the turtle’s Pen</td>
+</tr>
+<tr>
+<td>up()</td>
+<td>None</td>
+<td>Picks up the turtle’s Pen</td>
+</tr>
+<tr>
+<td>down()</td>
+<td>None</td>
+<td>Puts down the turtle’s Pen</td>
+</tr>
+<tr>
+<td>color()</td>
+<td>Color name</td>
+<td>Changes the color of the turtle’s pen</td>
+</tr>
+<tr>
+<td>fillcolor()</td>
+<td>Color name</td>
+<td>Changes the color of the turtle will use to fill a polygon</td>
+</tr>
+<tr>
+<td>heading()</td>
+<td>None</td>
+<td>It returns the current heading</td>
+</tr>
+<tr>
+<td>position()</td>
+<td>None</td>
+<td>It returns the current position</td>
+</tr>
+<tr>
+<td>goto()</td>
+<td>x, y</td>
+<td>It moves the turtle to position x,y</td>
+</tr>
+<tr>
+<td>begin_fill()</td>
+<td>None</td>
+<td>Remember the starting point for a filled polygon</td>
+</tr>
+<tr>
+<td>end_fill()</td>
+<td>None</td>
+<td>It closes the polygon and fills with the current fill color</td>
+</tr>
+<tr>
+<td>dot()</td>
+<td>None</td>
+<td>Leaves the dot at the current position</td>
+</tr>
+<tr>
+<td>stamp()</td>
+<td>None</td>
+<td>Leaves an impression of a turtle shape at the current location</td>
+</tr>
+<tr>
+<td>shape()</td>
+<td>shapename</td>
+<td>Should be ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’</td>
+</tr>
+</table>
 
 ### 📋 Datatypes in Python
 
