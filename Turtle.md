@@ -143,3 +143,20 @@ In the computer world, a library works similarly. By definition, a library is a 
    - Graphic creation using the Turtle methods listed prior
 </p>
 </br>
+
+<b> Program to demonstrate the Turtle library </b>
+</br>
+<p align="justify">
+   A turtle screen has to be opened first, and a variable has to be initialized for it in the following way. It makes up a window called the screen, where all of the ouptut for the code can be viewed. The litte black triangular shape in the middle of the screen as shown in the figure  is called the turtle. 
+</p>
+
+```
+>>> dev = turtle.getscreen()
+```
+
+<p align="center">
+   <img src="https://files.realpython.com/media/Screenshot_2019-12-10_at_7.40.34_AM.86e4071c3bb4.png" alt="Turtle Intro"
+        width="500" height="400">
+</p>
+
+
