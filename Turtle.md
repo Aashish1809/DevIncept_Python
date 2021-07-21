@@ -29,7 +29,7 @@ In the computer world, a library works similarly. By definition, a library is a 
 ```
 </br>
 
-<b>Turtle Methods</b>
+<b>Turtle Specific Methods</b>
 <table class="table table-bordered">
 <tr>
 <th style="text-align:center;">METHOD</th>
