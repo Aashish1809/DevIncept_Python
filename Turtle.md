@@ -180,7 +180,7 @@ The screen acts as a canvas, while the turtle acts like a pen. The turtle can be
 >>> t.backward(100) //can also use.bk()
 ```
 <p align="center">
-   <img src="![](https://files.realpython.com/media/Update_-_Moving_Turtle_VIDEO_GIF.61623cf40fed.gif)" alt="Turtle Intro"
+   <img src="![](https://github.com/Aashish1809/DevIncept_Python/blob/main/turtle.webp" alt="Turtle Intro"
         width="400" height="300">
 </p>
 
