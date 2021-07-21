@@ -32,9 +32,9 @@ In the computer world, a library works similarly. By definition, a library is a 
 <b>Turtle Specific Methods</b>
 <table class="table table-bordered">
 <tr>
-<th style="text-align:center;">METHOD</th>
-<th style="text-align:center;">PARAMETER</th>
-<th style="text-align:center;">DESCRIPTION</th>
+<th style="text-align:center;">Method</th>
+<th style="text-align:center;">Parameters</th>
+<th style="text-align:center;">Description</th>
 </tr>
 <tr>
 <td>Turtle()</td>
@@ -195,6 +195,10 @@ HELLO
 >>> print(type(a)) #print the type of a
 >>> <class 'str'>
 ```
+
+</br>
+<b> Steps for executing Turtle Program in Python </b>
+
 <p align="justify">
 These are only the basic primitive datatypes in Python. But it is not like Python has only these primitive datatypes. There are many more which include boolean, long.. etc. but they are out of scope of this markdown file.
 </p>
