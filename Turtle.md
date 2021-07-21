@@ -156,7 +156,7 @@ In the computer world, a library works similarly. By definition, a library is a 
 
 <p align="center">
    <img src="https://files.realpython.com/media/Screenshot_2019-12-10_at_7.40.34_AM.86e4071c3bb4.png" alt="Turtle Intro"
-        width="500" height="400">
+        width="400" height="300">
 </p>
 
 
