@@ -158,5 +158,10 @@ In the computer world, a library works similarly. By definition, a library is a 
    <img src="https://files.realpython.com/media/Screenshot_2019-12-10_at_7.40.34_AM.86e4071c3bb4.png" alt="Turtle Intro"
         width="400" height="300">
 </p>
+</br>
 
+<p align="justify">
+   Next, it is necessary to initialize the variable t, which can then be used throughout the program to refer to the turtle. Just like for the screen, this also has to be given a name.
+The screen acts as a canvas, while the turtle acts like a pen. The turtle can be programmed to move around the screen. The turtle has certain changeable characteristics, like size, color, and speed. It always points in a specific direction, and will move in that direction unless you tell it otherwise When it is up, it means that no line will be drawn when it moves, and  when it is down, it means that a line will be drawn when it moves.
+</p>
 
