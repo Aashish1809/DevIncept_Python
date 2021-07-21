@@ -161,7 +161,28 @@ In the computer world, a library works similarly. By definition, a library is a 
 </br>
 
 <p align="justify">
-   Next, it is necessary to initialize the variable t, which can then be used throughout the program to refer to the turtle. Just like for the screen, this also has to be given a name.
-The screen acts as a canvas, while the turtle acts like a pen. The turtle can be programmed to move around the screen. The turtle has certain changeable characteristics, like size, color, and speed. It always points in a specific direction, and will move in that direction unless you tell it otherwise When it is up, it means that no line will be drawn when it moves, and  when it is down, it means that a line will be drawn when it moves.
+   Next, it is necessary to initialize the variable, which can then be used throughout the program to refer to the turtle. Just like for the screen, this also has to be given a name.
+The screen acts as a canvas, while the turtle acts like a pen. The turtle can be programmed to move around the screen. The turtle has certain changeable characteristics, like size, color, and speed. It always points in a specific direction, and will move in that direction unless you tell it otherwise When it is up, it means that no line will be drawn when it moves, and  when it is down, it means that a line will be drawn when it moves. The initialization can be done as follows,
 </p>
+
+```
+>>> t = turtle.Turtle()
+```
+
+<p align="justify">
+   There are four directions that a turtle can move in, i.e., forward, backward, left and right. The turtle moves .forward() or .backward() in the direction that it is facing. The direction can be changed by turning it .left() or .right() by a certain degree. The code for movement and direction can be as simple as,
+</p>
+
+```
+>>> t.right(90) //can also use .rt()
+>>> t.forward(100) //can also use .fd
+>>> t.left(90) //can also use .lt
+>>> t.backward(100) //can also use.bk
+```
+<p align="center">
+   <img src="https://files.realpython.com/media/Update_-_Moving_Turtle_VIDEO_GIF.61623cf40fed.gif" alt="Turtle Intro"
+        width="400" height="300">
+</p>
+
+
 
