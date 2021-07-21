@@ -132,79 +132,15 @@ In the computer world, a library works similarly. By definition, a library is a 
 <td>Should be ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’</td>
 </tr>
 </table>
-
-### 📋 Datatypes in Python
-
-<p align="justify">
-   The data type of a variable or object determines which operations can be applied to it. Once a variable is assigned a data type, it can be used for computations in the program. The best thing about Python is that the data type doesn’t need to be defined when declaring a variable. Data types exist, but the variables are not bound to any of them. Languages that act in this way are called "dynamically-typed" languages. The datatypes in Python can be categorized into two,
-   
-   - Primitive Datatypes
-   - Non-Primitive Datatypes (Python specific datatypes)
-   
-</p>
-
-<p align="center">
-   <img src="http://hindiwalo.com/wp-content/uploads/2020/06/Untitled-Document-3-1024x656.png" alt="Datatypes in Python"
-        width="700" height="500">
-</p>
-<b> Primitive Datatypes in Python </b>
-</br>
-<p align="justify">
-   Primitive datatypes can be defined as the most basic datatypes of any programming language. They alongside variables form the building blocks of the program. These are the datatypes upon which non-primitive datatypes are built. Primitive datatypes are mutable in nature, meaning the variable declared using these datatypes can have a change in its value. Primitive datatypes in Python can furthur be classified into four.
-   
-   - Integer
-   - Float
-   - Complex
-   - String
-</p>
-<p align="justify">
-<b>Integer</b> value is represented by the int class. It contains positive or negative whole numbers (without fraction or decimal). In Python, there is no limit to how long an integer value can be.
-</p>
-<p align="justify"> 
-<b>Float</b> value is represented by the float class. It is a real number with floating point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation. 
-</p>
-<p align="justify">
-<b>Complex Number</b> is represented by the complex class. It is specified as (real part) + (imaginary part)j. If for example, the complex number is 5+5j, real part is 5 and the imaginary part is 5 again.
-</p>
-<p align="justify">
-Like many other popular programming languages, <b>strings</b> in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
-</p>
-
-```
-a=10 #assigning a integer value
->>> print a
-10
->>> print(type(a)) #print the type of a
->>> <class 'int'> #int type
-
-a=10.3 #assigning a float value
->>> print a
-10.3
->>> print(type(a)) #print the type of a
->>> <class 'float'>
-
-a=5+3j #assigning a complex value
->>> print a
-5+3j
->>> print(type(a)) #print the type of a
->>> <class 'complex'>
-
-a="HELLO" #assigning a string value
->>> print a
-HELLO
->>> print(type(a)) #print the type of a
->>> <class 'str'>
-```
-
 </br>
 
 <b> Steps for executing Turtle Program in Python </b>
 <p align="justify">
-<b> Importing the Turtle Module </b>
-</br>
-   The module could be imported with just the single line of code given above and then all the methods related to the module could directly be used.
+   - Import the Turtle module
+   - Creating a seperate window
+   - Creating a Turtle to control the flow
+   - Graphic creation using the Turtle methods listed prior
 </p>
-
 </br>
 
 <b>Creation of a separate window </b>
