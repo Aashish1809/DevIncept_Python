@@ -5,7 +5,7 @@
    <br />
    <b> PYTHON - TURTLE LIBRARY </b>
    <br />
-   <b> This mark down file helps understand about TURTLE library in PYTHON. </b>
+   <b> This mark down file helps understand Turtle library in Python. </b>
    <br />
 </p>
 
@@ -197,14 +197,17 @@ HELLO
 ```
 
 </br>
-<b> Steps for executing Turtle Program in Python </b>
 
+<b> Steps for executing Turtle Program in Python </b>
 <p align="justify">
-These are only the basic primitive datatypes in Python. But it is not like Python has only these primitive datatypes. There are many more which include boolean, long.. etc. but they are out of scope of this markdown file.
+<b> Importing the Turtle Module </b>
+</br>
+   The module could be imported with just the single line of code given above and then all the methods related to the module could directly be used.
 </p>
+
 </br>
-<b> Non-Primitive Datatypes in Python </b>
-</br>
+
+<b>Creation of a separate window </b>
 <p align="justify">
    Non-Primitive datatypes can be defined as the derived datatypes. These are the datatypes which are built upon primitive datatypes. In contrast to primitive datatypes, non-primitive data types not only store values, but a collection of values in different formats. Non-Primitive datatypes in Python can further be classified into four.
    
