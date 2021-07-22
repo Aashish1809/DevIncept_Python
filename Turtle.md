@@ -14,14 +14,13 @@
 ### 📋 Turtle Library in Python
 
 <p align="justify">
-   Turtle is a pre-installed Python library that enables users to create pictures and shapes by providing them with a virtual canvas. The onscreen pen that you use for drawing is called the turtle and this is what gives the library its name. In short, the Python turtle library helps new programmers get a feel for what programming with Python is like in a fun and interactive way. Turtle is mainly used to introduce children to the world of computers. It’s a straightforward yet versatile way to understand the concepts of Python. This makes it a great avenue for kids to take their first steps in Python programming. That being said, the Python turtle library is not restricted to little ones alone! It’s also proved extremely useful for adults who are trying their hands at Python, which makes it great for Python beginners.
+   Turtle is a pre-installed Python library that enables users to create pictures and shapes by providing them with a virtual canvas. The onscreen pen used for drawing is called the turtle and this is what gives the library its name. In short, the Python turtle library helps new programmers get a feel for what programming with Python is like in a fun and interactive way. Turtle is mainly used to introduce children to the world of computers. It’s a straightforward yet versatile way to understand the concepts of Python. This makes it a great avenue for kids to take their first steps in Python programming. That being said, the Python turtle library is not restricted to little ones alone! It’s also proved extremely useful for adults who are trying their hands at Python, which makes it great for Python beginners.
 </p>
 </ br>
 
 <b> Python Compatible Environment and Version for Turtle </b>
 <p align="justify">
-   Python Environment can be any of the applications among IDLE, Jupyter Notebooks. Python version has to be version-3 as Turtle is within the version-3 of Python. The good thing about turtle is that it’s a built-in library, so ther's no need to install any new packages. The library can be put into use with just one line of code. Before beginning with libraries in  Python, understanding what a library is, is very important. In the non-computer world, a library is a place where different types of books are stored. These books can be accessed at any time, take whatever information you need from them, and return them to the same place.
-In the computer world, a library works similarly. By definition, a library is a set of important functions and methods that you can access to make programming easier. The Python turtle library contains all the methods and functions that one need to create own set of images. To access a Python library, just import it into the Python environment, like this,
+   Python Environment can be any of the applications among IDLE, Jupyter Notebooks. Python version has to be version-3 as Turtle is within the version-3 of Python. The good thing about turtle is that it’s a built-in library, so there's no need to install any new packages. The library can be put into use with just one line of code. Before beginning with libraries in  Python, let's understand what it is. In the non-computer world, a library is a place where different types of books are stored. These books can be accessed at any time, take whatever information is needed from them, and return them back to the same place. In the computer world, a library works similarly. By definition, a library is a set of important functions and methods that can be accessed to make programming easier. The Python turtle library contains all the methods and functions that one need to create own set of images. To access a Python library, just import it into the Python environment like this,
 </p>
 
 ```
@@ -43,17 +42,17 @@ In the computer world, a library works similarly. By definition, a library is a 
 </tr>
 <tr>
 <td>forward()</td>
-<td>amount</td>
+<td>Amount</td>
 <td>It moves the turtle forward by the specified amount</td>
 </tr>
 <tr>
 <td>backward()</td>
-<td>amount</td>
+<td>Amount</td>
 <td>It moves the turtle backward by the specified amount</td>
 </tr>
 <tr>
 <td>right()</td>
-<td>angle</td>
+<td>Angle</td>
 <td>It turns the turtle clockwise</td>
 </tr>
 <tr>
@@ -69,27 +68,27 @@ In the computer world, a library works similarly. By definition, a library is a 
 <tr>
 <td>pendown()</td>
 <td>None</td>
-<td>Puts down the turtle’s Pen</td>
+<td>It puts down the turtle’s Pen</td>
 </tr>
 <tr>
 <td>up()</td>
 <td>None</td>
-<td>Picks up the turtle’s Pen</td>
+<td>It picks up the turtle’s Pen</td>
 </tr>
 <tr>
 <td>down()</td>
 <td>None</td>
-<td>Puts down the turtle’s Pen</td>
+<td>It puts down the turtle’s Pen</td>
 </tr>
 <tr>
 <td>color()</td>
-<td>Color name</td>
-<td>Changes the color of the turtle’s pen</td>
-</tr>
+<td>Color Name</td>
+<td>It changes the color of the turtle’s pen</td>
+ </tr>
 <tr>
 <td>fillcolor()</td>
-<td>Color name</td>
-<td>Changes the color of the turtle will use to fill a polygon</td>
+<td>Color Name</td>
+<td>It changes the color of the turtle will use to fill a polygon</td>
 </tr>
 <tr>
 <td>heading()</td>
@@ -109,7 +108,7 @@ In the computer world, a library works similarly. By definition, a library is a 
 <tr>
 <td>begin_fill()</td>
 <td>None</td>
-<td>Remember the starting point for a filled polygon</td>
+<td>It remembers the starting point for a filled polygon</td>
 </tr>
 <tr>
 <td>end_fill()</td>
@@ -119,17 +118,17 @@ In the computer world, a library works similarly. By definition, a library is a 
 <tr>
 <td>dot()</td>
 <td>None</td>
-<td>Leaves the dot at the current position</td>
+<td>It leaves the dot at the current position</td>
 </tr>
 <tr>
 <td>stamp()</td>
 <td>None</td>
-<td>Leaves an impression of a turtle shape at the current location</td>
+<td>It leaves an impression of a turtle shape at the current location</td>
 </tr>
 <tr>
 <td>shape()</td>
-<td>shapename</td>
-<td>Should be ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’</td>
+<td>shape Name</td>
+<td>It should be ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’</td>
 </tr>
 </table>
 </br>
