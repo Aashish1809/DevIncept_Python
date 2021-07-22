@@ -190,4 +190,18 @@ The screen acts as a canvas, while the turtle acts like a pen. The turtle can be
 >>> t.goto(0,0) #alternatively go to home
 ```
 
+<b> Program to draw a polygon </b>
 
+```
+>>> import turtle
+>>> polygon_ = turtle.Turtle()
+>>> for i in range(6):
+>>> polygon_.forward(100)
+>>> polygon_.right(300)
+>>> turtle.done()
+```
+
+<p align="center">
+   <img src="https://cdn.educba.com/academy/wp-content/uploads/2020/03/Python-Turtle-2.jpg.webp" alt="polygon"
+        width="300" height="200">
+</p>
