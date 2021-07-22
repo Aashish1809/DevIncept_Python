@@ -57,7 +57,7 @@
 </tr>
 <tr>
 <td>left()</td>
-<td>angle</td>
+<td>Angle</td>
 <td>It turns the turtle counter clockwise</td>
 </tr>
 <tr>
@@ -127,7 +127,7 @@
 </tr>
 <tr>
 <td>shape()</td>
-<td>shape Name</td>
+<td>Shape Name</td>
 <td>It should be ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’</td>
 </tr>
 </table>
