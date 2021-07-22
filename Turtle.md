@@ -177,11 +177,7 @@ The screen acts as a canvas, while the turtle acts like a pen. The turtle can be
 >>> t.right(90) //can also use .rt()
 >>> t.forward(100) //can also use .fd()
 >>> t.left(90) //can also use .lt()
->>> t.backward(100) //can also use.bk()
+>>> t.backward(100) //can also use .bk()
 ```
-<p align="center">
-   ![](https://github.com/Aashish1809/DevIncept_Python/blob/main/turtle.webp)
-</p>
 
 
-fff
