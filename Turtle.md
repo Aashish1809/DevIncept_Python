@@ -241,6 +241,22 @@ The screen acts as a canvas, while the turtle acts like a pen. The turtle can be
         width="200" height="200">
 </p>
 
+<b> Program to draw a hang spiral pattern </b>
+
+```
+>>> from turtle import *
+>>> penup()
+>>> for a in range(40, -1, -1):
+>>> stamp()
+>>> left(a)
+>>> forward(20)
+```
+
+<p align="center">
+   <img src="https://cdn.educba.com/academy/wp-content/uploads/2020/03/Python-Turtle-5.jpg.webp" alt="hang"
+        width="200" height="200">
+</p>
+
 <p align="justify">
   Using basic commands, which are readable and understandable, one can create a window canvas like draw box to draw whatever they want just by giving the parameters for the turtle to move in the direction of desire. All the functions are the instructions for the Python program to follow. Results can be beautiful if created patterns and beautiful designs. Python Turtle is a great method to encourage kids to acknowledge more about programming, especially Python. Turtle is powerful and it therefore means they do have a lot of functions or attributes.. Yes, it is true but it is not possible to cover the functionality of all the defined attributes and therefore this markdown file is limiting down the number of functions. Most important functions under each datatype have been explained very clearly. 
 </p>
