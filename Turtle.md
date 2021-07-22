@@ -174,10 +174,20 @@ The screen acts as a canvas, while the turtle acts like a pen. The turtle can be
 </p>
 
 ```
->>> t.right(90) //can also use .rt()
->>> t.forward(100) //can also use .fd()
->>> t.left(90) //can also use .lt()
->>> t.backward(100) //can also use .bk()
+>>> t.right(90) #can also use .rt()
+>>> t.forward(100) #can also use .fd()
+>>> t.left(90) #can also use .lt()
+>>> t.backward(100) #can also use .bk()
+```
+
+<p align="justify">
+  A line can also be drawn from the current position to any other arbitrary position on the screen. This is done with the help of coordinates. The screen is divided into four quadrants. The point where the turtle is initially positioned at the beginning of your program is (0,0). This is called Home. To move the turtle to any other area on the screen, .goto() function can be used with the coordinates passed as parameters. The first line of code draws a line from current position to (100,100) point on the screen. To bring back the turtle to its home position the second line of code can be used. Alternatively third line of code can also be used to send the turtle back home, but the second one is quicker.
+</p>
+
+```
+>>> t.goto(100,100) #goto (100,100)
+>>> t.home() #goto home
+>>> t.goto(0,0) #alternatively go to home
 ```
 
 
