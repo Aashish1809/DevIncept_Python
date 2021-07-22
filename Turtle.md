@@ -203,5 +203,24 @@ The screen acts as a canvas, while the turtle acts like a pen. The turtle can be
 
 <p align="center">
    <img src="https://cdn.educba.com/academy/wp-content/uploads/2020/03/Python-Turtle-2.jpg.webp" alt="polygon"
-        width="300" height="200">
+        width="200" height="200">
+</p>
+
+<b> Program to draw a star </b>
+
+```
+>>> import turtle
+>>> star = turtle.Turtle()
+>>> num_of_sides = 5
+>>> length_of_side = 50
+>>> each_angle = 720.0 / num_of_sides
+>>> for i in range(num_of_sides):
+>>> star.forward(length_of_side)
+>>> star.right(each_angle)
+>>> turtle.done()
+```
+
+<p align="center">
+   <img src="https://cdn.educba.com/academy/wp-content/uploads/2020/03/Python-Turtle-3.jpg.webp" alt="star"
+        width="200" height="200">
 </p>
